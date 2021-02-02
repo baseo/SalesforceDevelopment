@@ -1,5 +1,5 @@
 @isTest
-public with sharing class CommunityLoginWithLWCControllerTest {
+private with sharing class CommunityLoginWithLWCControllerTest {
     public CommunityLoginWithLWCControllerTest() {}
 
     @isTest
