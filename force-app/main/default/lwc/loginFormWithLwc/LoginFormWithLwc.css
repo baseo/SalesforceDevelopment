@@ -1,0 +1,7 @@
+.spacer {
+  margin-bottom: 1rem;
+}
+.stretchWidth {
+  display: block;
+  min-width: 100%;
+}

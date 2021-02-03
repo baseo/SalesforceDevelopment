@@ -1,3 +1,29 @@
 <template>
-    
+  <lightning-input
+    name="accountId"
+    placeholder="法人コードを入力してください…"
+    value={corporateNumber}
+  >
+  </lightning-input>
+  <button
+    type="button"
+    name="Submit Case"
+    value="Submit Case"
+    class="stretchWidth slds-button slds-button_brand"
+    onclick={handleLoginAction}
+  >
+    <p>
+      <lightning-formatted-text value="ログイン"></lightning-formatted-text>
+    </p>
+  </button>
+  <!--
+    <lightning-button
+                variant="brand"
+                label="ログイン"
+                title="Primary action"
+                onclick={handleLoginAction}
+                class="stretchWidth"
+                >
+    </lightning-button>
+    -->
 </template>
